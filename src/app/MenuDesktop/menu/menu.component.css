@@ -1,0 +1,27 @@
+.nav-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background: #dacb8a;
+    margin: 10px;
+  
+    border-bottom: 2px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 50px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 1em rgba(245, 242, 242, 0.158);
+}
+
+.nav-link:hover{
+    background: white;
+    border-bottom: 2px solid #3b3826;
+    color: black;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 20px;
+    border-bottom-right-radius: 50px;
+
+
+}

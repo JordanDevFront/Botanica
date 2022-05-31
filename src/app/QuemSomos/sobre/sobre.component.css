@@ -1,0 +1,36 @@
+.container{
+    margin-top: 20px;
+    width: 82.3%;
+}
+.row{
+    background: #dacb8a;
+    color: #392e0e;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 1em rgb(126, 125, 125);
+}
+
+.col img{
+    padding: 30px;
+    border-radius: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-end-start-radius: 100px;
+    border-bottom-right-radius: 50px;
+}
+.font-sans-serif{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0em;
+}
+.col label{
+    padding-top: 50px;
+    padding: 20px;
+}
+.col h3{
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+{
+  "alunos": [
+    { "id": 1, "nome": "Jordan Faustino", "matricula": "#15545HG6" },
+    { "id": 2, "nome": "Marcelo Pereira", "matricula": "#1645HG6" },
+    { "id": 3, "nome": "Maria Ribeiro", "matricula": "#1745HG6" },
+    { "id": 4, "nome": "Marcela Fereira", "matricula": "#1845HG6" }
+  ]
+}

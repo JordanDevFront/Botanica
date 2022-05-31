@@ -1,0 +1,45 @@
+p{
+    color:red;
+}
+
+.card-student{
+    background: rgb(0, 102, 255);
+    display: flex;
+    border-radius: 4px;
+    margin: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 1em rgb(0, 21, 53);
+    border-right:7px solid white;
+}
+
+.card-student:hover{
+    background: rgb(0, 86, 214);
+}
+
+.img-photo{
+    max-width:80px;
+    max-height:80px;
+    margin: 25px;
+    border-radius: 100px;
+}
+.img-photo img{
+    max-width:80px;
+    max-height:80px;
+    margin-left: -13px;
+}
+.name-student{
+    padding: 50px;
+    text-align: center;
+}
+.registration-student{
+    padding: 50px;
+    text-align: center;
+}
+.name-student label{
+    color: white;
+    font-size: 22px;
+}
+.registration-student label{
+    color: white;
+    font-size: 22px;
+}

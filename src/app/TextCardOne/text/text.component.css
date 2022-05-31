@@ -1,0 +1,94 @@
+.container{
+    margin-top: 20px;
+}
+.description{
+    background: #dacb8a;
+    color: #392e0e;
+    width: 350px;
+    height: 500px;
+    padding: 50px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 70px;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 1em rgba(167, 167, 167, 0.507);
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0em;
+}
+.widthImg img{
+    width: 350px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 10px;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 70px;
+    box-shadow: 0 0 1em rgba(167, 167, 167, 0.507);
+}
+.col{
+    margin: 10px;
+}
+.font-style-text{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0em;
+}
+.title-name-plant h3{
+    margin-left: 100px;
+    color: #392e0e;
+}
+.title-name-plant{
+    background: #dacb8a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 50px;
+    border-bottom-right-radius: 20px;
+}
+.bgColor{
+    background: #dacb8a;
+    color: #392e0e;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 70px;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bgColor-Curiosity{
+    width: 97%;
+    background: #dacb8a;
+    color: #392e0e;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-end-start-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.bgColor-Information{
+    color: #392e0e;
+    background: #6bb88a;
+    padding: 50px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 10px;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 70px;
+    border-right: 5px solid #392e0e;
+}
+.btn-next{
+    text-align: right;
+}
+.btn-next button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    margin-right: 25px;
+    background: #6bb88a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 50px;
+    border-bottom-right-radius: 20px;
+}

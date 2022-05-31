@@ -1,0 +1,41 @@
+.container{
+    margin-top: 20px;
+}
+.bgColor{
+    background: #dacb8a;
+    color: #392e0e;
+    padding: 50px;
+    width: 98%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 1em rgb(126, 125, 125);
+}
+.bgColor label{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0em;
+}
+.row{
+    width: 98%;
+    position: relative;
+    top: -290px;
+}
+.col img{
+    width: 100px;
+    position: relative;
+    right: 50px;
+}
+.col-right{
+    text-align: right;
+}
+
+.col-right{
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
