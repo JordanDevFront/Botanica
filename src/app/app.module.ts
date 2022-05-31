@@ -12,6 +12,7 @@ import { routing } from './app.routing';
 import { SobreComponent } from './QuemSomos/sobre/sobre.component';
 import { DescriptionComponent } from './DescriptionDesktop/description/description.component';
 import { TextTwoComponent } from './TextCardTwo/text-two/text-two.component';
+import { RodapeDesktopComponent } from './rodape-desktop/rodape-desktop.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TextTwoComponent } from './TextCardTwo/text-two/text-two.component';
     TextComponent,
     SobreComponent,
     DescriptionComponent,
-    TextTwoComponent
+    TextTwoComponent,
+    RodapeDesktopComponent
   ],
   imports: [
     BrowserModule,

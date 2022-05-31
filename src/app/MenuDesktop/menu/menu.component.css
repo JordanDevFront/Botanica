@@ -12,12 +12,6 @@
     border-bottom-right-radius: 20px;
     box-shadow: 0 0 1em rgba(245, 242, 242, 0.158);
 }
-.logo-mobile, .menu-mobile{
-    padding: 20px;
-}
-.menu-mobile{
-    text-align: right;
-}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .navbar, .logo-desktop, .nav{
@@ -29,6 +23,12 @@
     }
     .nav-link {
         border: 10px solid white;
+    }
+    .logo-mobile, .btn-menu-mobile{
+        padding: 20px;
+    }
+    .btn-menu-mobile{
+        text-align: right;
     }
 }
 
