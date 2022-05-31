@@ -1,9 +1,11 @@
-.container{
+.description-text {
     margin-top: 20px;
 }
-.bgColor{
+.bgColor {
     background: #dacb8a;
     color: #392e0e;
+}
+.format-control {
     padding: 50px;
     width: 98%;
 
@@ -12,30 +14,52 @@
     border-end-start-radius: 50px;
     border-bottom-right-radius: 50px;
     box-shadow: 0 0 1em rgb(126, 125, 125);
+
 }
-.bgColor label{
+.format-control p {
     font-style: normal;
     font-weight: 400;
     line-height: 1.73;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0em;
 }
-.row{
+.row {
     width: 98%;
     position: relative;
     top: -290px;
 }
-.col img{
+.col img {
     width: 100px;
     position: relative;
     right: 50px;
 }
-.col-right{
+.col-right {
     text-align: right;
-}
-
-.col-right{
     position: relative;
     left: 120px;
     top: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 769px) {
+    .description-text {
+        display: none;
+    }
+    .about-me-mobile{
+        align-items: center;
+        background: #dacb8a;
+        padding: 10px;
+
+        background: #dacb8a;
+        color: #392e0e;
+        box-shadow: 0 0 1em rgb(126, 125, 125);
+    }
+    .container-mobile{
+        padding:20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:4800px){
+    .about-me-mobile{
+        display: none;
+    }
 }

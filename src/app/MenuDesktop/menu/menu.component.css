@@ -1,10 +1,10 @@
-.nav-link{
+.nav-link {
     color: white;
     font-size: 18px;
     font-weight: 400;
     background: #dacb8a;
     margin: 10px;
-  
+
     border-bottom: 2px solid white;
     border-top-left-radius: 20px;
     border-top-right-radius: 50px;
@@ -12,12 +12,40 @@
     border-bottom-right-radius: 20px;
     box-shadow: 0 0 1em rgba(245, 242, 242, 0.158);
 }
+.logo-mobile, .menu-mobile{
+    padding: 20px;
+}
+.menu-mobile{
+    text-align: right;
+}
 
-.nav-link:hover{
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar, .logo-desktop, .nav{
+        display: none;
+    }
+    .navbarMobile{
+        display: block;
+        background: #6bb88a;
+    }
+    .nav-link {
+        border: 10px solid white;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:4800px){
+    .navbarMobile{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+}
+
+/*effect hover*/
+.nav-link:hover {
     background: white;
     border-bottom: 2px solid #3b3826;
     color: black;
-
     border-top-left-radius: 50px;
     border-top-right-radius: 20px;
     border-end-start-radius: 20px;
