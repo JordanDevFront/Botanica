@@ -1,35 +1,28 @@
-@media screen and (min-width: 320px) and (max-width: 769px) {
-    .container{
-        display: none;
-    }
-}
-
-
-.container{
+.margin-top-90{
     margin-top: -90px;
 }
-.col{
+.item-width{
     width: 350px;
     height: 400px;
 }
-.col img{
+.img-width{
     width: 310px;
+}
+.border-radius-img{
     border-top-left-radius: 20px;
     border-top-right-radius: 50px;
     border-end-start-radius: 50px;
     border-bottom-right-radius: 20px;
 }
-.margin{
+.margin-10{
     margin: 10px;
 }
 
-.button{
-    margin: 10px;
+.btn-position{
     position: relative;
     top: 20px;
     text-align: center;
 }
-
 .btn-bgColor{
     background: #6bb88a;
     color: white;
@@ -38,19 +31,35 @@
     background: #dacb8a;
     color: black;
 }
-.btn-format{
+.btn-height{
     height: 50px;
+}
+.bg-Color{
+    background: white;
+    border-bottom: 4px solid #6bb88a;
+}
+.padding-20{
+    padding: 20px;
+}
+.format-border-radius{
     border-top-left-radius: 20px;
     border-top-right-radius: 50px;
     border-end-start-radius: 50px;
     border-bottom-right-radius: 20px;
 }
-.bg-Color{
-    background: white;
-    padding: 20px;
-    border-bottom: 4px solid #6bb88a;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    border-end-start-radius: 50px;
-    border-bottom-right-radius: 20px;
+@media screen and (min-width: 320px) and (max-width: 769px) {
+    .control-desktop{
+        display: none;
+    }
+    .margin-10-top{
+        margin-top: 10px;
+    }
+    .card-body{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 4800px) {
+    .control-mobile{
+        display: none;
+    }
 }
