@@ -1,4 +1,42 @@
 .rodape{
+    width: 100%;
     background: #6bb88a;
     padding: 10px;
+}
+.modal-desktop{
+    display: flex;
+}
+.logo-img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 50px;
+    border-bottom-right-radius: 20px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-65{
+    margin-top: 65px;
+}
+.margin-10{
+    margin: 10px;
+}
+.width-icons i{
+    margin: 15px;
+    font-size: 35px;
+    color: white;
+}
+.format-label{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: white;
+}
+.width-icons i:hover{
+    color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .margin-top-65{
+        margin-top: 50px;
+    }
 }
