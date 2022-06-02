@@ -13,6 +13,7 @@ import { SobreComponent } from './QuemSomos/sobre/sobre.component';
 import { DescriptionComponent } from './DescriptionDesktop/description/description.component';
 import { TextTwoComponent } from './TextCardTwo/text-two/text-two.component';
 import { RodapeDesktopComponent } from './rodape-desktop/rodape-desktop.component';
+import { TextCardOneMobileComponent } from './text-card-one-mobile/text-card-one-mobile.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { RodapeDesktopComponent } from './rodape-desktop/rodape-desktop.componen
     SobreComponent,
     DescriptionComponent,
     TextTwoComponent,
-    RodapeDesktopComponent
+    RodapeDesktopComponent,
+    TextCardOneMobileComponent
   ],
   imports: [
     BrowserModule,

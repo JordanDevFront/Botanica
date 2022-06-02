@@ -9,10 +9,12 @@ declare module "@angular/core" {
 
 import { TextComponent } from './TextCardOne/text/text.component';
 import {TextTwoComponent} from './TextCardTwo/text-two/text-two.component';
+import { TextCardOneMobileComponent } from './text-card-one-mobile/text-card-one-mobile.component';
 
 const APP_ROUTES: Routes = [
     { path: 'textOne', component: TextComponent },
-    { path: 'textTwo', component: TextTwoComponent }
+    { path: 'textTwo', component: TextTwoComponent },
+    { path: 'text-one-mobile', component: TextCardOneMobileComponent}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);

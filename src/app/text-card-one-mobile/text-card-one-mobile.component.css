@@ -1,0 +1,35 @@
+.bgColor-color{
+    background: #dacb8a;
+    color: #392e0e;
+}
+.bgColor-color-text{
+    background: #6bb88a;
+    color: #392e0e;
+}
+.box-shadow{
+    box-shadow: 0 0 1em rgb(126, 125, 125);
+}
+.format-border-mobile{
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+.container-mobile{
+    padding:20px;
+    font-size: 0.9rem;
+}
+.width-img img{
+    width: 150px;
+}
+.center-item{
+    text-align: center;
+}
+.border-radius img{
+    border-radius: 4px;
+}
+.padding{
+    padding: 20px;
+}
+.title{
+    font-size: 1.1rem;
+}
