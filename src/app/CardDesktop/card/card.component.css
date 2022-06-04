@@ -1,28 +1,13 @@
-.margin-top-90{
-    margin-top: -90px;
+.control-desktop{
+    display: flex;
+    position: relative;
+    top: -80px;
 }
-.item-width{
-    width: 350px;
-    height: 400px;
-}
-.img-width{
-    width: 310px;
-}
-.border-radius-img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    border-end-start-radius: 50px;
-    border-bottom-right-radius: 20px;
-}
+
 .margin-10{
     margin: 10px;
 }
 
-.btn-position{
-    position: relative;
-    top: 20px;
-    text-align: center;
-}
 .btn-bgColor{
     background: #6bb88a;
     color: white;
@@ -33,19 +18,6 @@
 }
 .btn-height{
     height: 50px;
-}
-.bg-Color{
-    background: white;
-    border-bottom: 4px solid #6bb88a;
-}
-.padding-20{
-    padding: 20px;
-}
-.format-border-radius{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    border-end-start-radius: 50px;
-    border-bottom-right-radius: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 769px) {
     .control-desktop{
@@ -66,3 +38,53 @@
         display: none;
     }
 }
+
+.details{
+    position: relative;
+    top: 250px;
+    padding: 20px;
+
+    background: linear-gradient(45deg, #ffffff62);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.details h3{
+    font-size: 1.3em;
+    color: white;
+}
+.item-width-img{
+    width: 350px;
+    height: 560px;
+    cursor:pointer;
+    margin: 10px;
+    border-radius: 20px;
+
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card-control{
+    width: 300px;
+    position: relative;
+    top: -345px;
+    left: 30px;
+    padding: 20px;
+    color: white;
+    cursor:pointer;
+
+    background: linear-gradient(45deg, #ffffff62);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-center{
+    text-align: center;
+}
+
