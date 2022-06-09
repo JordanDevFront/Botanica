@@ -1,67 +1,13 @@
-.about-me{
-    margin-top: 20px;
-    width: 82.3%;
-}
-.row{
+.format-border{
     color: #392e0e;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-end-start-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.font-sans-serif{
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.73;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0em;
-}
-.col label{
-    padding-top: 50px;
-    padding: 20px;
-}
-.col h3{
-    padding: 10px;
-}
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .about-me{
-        display: none;
-    }
-    .container-mobile{
-        padding: 20px;
-    }
-    .img-mobile img{
-        width: 150px;
-        margin: 20px;
-        border-radius: 100%;
-    }
-    .img-mobile, .title-mobile{
-        text-align: center;
-    }
-    .about-me-mobile{
-        align-items: center;
-        background: #dacb8a;
-        padding: 10px;
-
-        background: #dacb8a;
-        color: #392e0e;
-        box-shadow: 0 0 1em rgb(126, 125, 125);
-    }
-    .text-mobile p{
-        font-size: 0.9rem;
-    }
-}
-@media screen and (min-width: 769px) and (max-width:4800px){
-    .about-me-mobile{
-        display: none;
-    }
-}
-
-
 .Card{
     position: relative;
     top: 100px;
-    width: 350px;
     height: 190px;
     border-radius: 20px;
     transition: 0.5s;
@@ -103,6 +49,128 @@
     height: 100%;
     object-fit: cover;
 }
+.about-me{
+    margin-top: 20px;
+}
+.font-sans-serif{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0em;
+}
+.col label{
+    padding-top: 50px;
+    padding: 20px;
+}
+.col h3{
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .about-me{
+        display: none;
+    }
+    .container-mobile{
+        padding: 20px;
+    }
+    .img-mobile img{
+        width: 150px;
+        margin: 20px;
+        border-radius: 100%;
+    }
+    .img-mobile, .title-mobile{
+        text-align: center;
+    }
+    .about-me-mobile{
+        border-radius: 4px;
+        padding: 40px;
+        align-items: center;
+        background: #dacb8a;
+
+        color: #392e0e;
+        box-shadow: 0 0 1em rgb(126, 125, 125);
+    }
+    .text-mobile p{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1222px){
+    .Card .content-about-me .details h2{
+        font-size: 1.4em!important;
+        line-height: 1.0em!important;
+        position: relative;
+        top: -30px;
+    }
+    .Card .content-about-me .details .data{
+        margin: 0px 0!important;
+        position: relative;
+        right: 20px;
+    }
+    .Card .content-about-me .details .actionBtn{
+        margin: 0px 0!important;
+        position: relative;
+        right: 25px;
+    }
+    .Card .content-about-me .details .actionBtn a i{
+        display: none;
+    }
+    .Card .content-about-me .details .actionBtn a{
+        font-size: 0.9em!important;
+        padding: 10px 10px!important;
+    }
+    .description label{
+        font-size: 0.9em!important;
+    }
+
+}
+@media screen and (min-width: 1222px) and (max-width:4800px){
+    .Card .content-about-me .details h2{
+        font-size: 1.4em!important;
+        line-height: 1.0em!important;
+        position: relative;
+        top: -30px;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width:1222px){
+    .Card .content-about-me .details .data{
+        margin: 0px 0!important;
+        position: relative;
+        right: 10px;
+    }
+    .Card .content-about-me .details .actionBtn{
+        margin: 0px 0!important;
+        position: relative;
+        right: 10px;
+    }
+    .Card .content-about-me .details .actionBtn a{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 1223px) and (max-width:4800px){
+    .Card .content-about-me .details .data{
+        margin: 0px 0!important;
+        position: relative;
+        right: 15px;
+    }
+    .Card .content-about-me .details .actionBtn{
+        margin: 0px 0!important;
+        position: relative;
+        right: 10px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:4800px){
+    .about-me-mobile{
+        display: none;
+    }
+}
+
+
+
+
+
 
 .Card .content-about-me{
     position: absolute;
@@ -138,6 +206,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    width: 100%;
 }
 .Card .content-about-me .details .data h3{
     font-size: 1em;
@@ -167,9 +236,13 @@
     cursor: pointer;
     text-decoration: none;
 }
-.Card .content-about-me .details .actionBtn a:nth-child(2){
+.Card .content-about-me .details .actionBtn a:nth-child(3){
     border: 1px solid rgb(49, 141, 247);
     color: rgb(49, 141, 247);
     background: #fff;
+}
+.Card .content-about-me .details .actionBtn a:nth-child(2){
+    color: rgb(255, 255, 255);
+    background: rgb(4, 120, 252);
 }
 

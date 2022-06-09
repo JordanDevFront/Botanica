@@ -1,94 +1,114 @@
-.container{
-    margin-top: 20px;
-}
-.description{
-    background: #dacb8a;
-    color: #392e0e;
-    width: 350px;
-    height: 500px;
-    padding: 50px;
-    margin-top: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 70px;
-    border-end-start-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0 0 1em rgba(167, 167, 167, 0.507);
-
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.73;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0em;
-}
-.widthImg img{
-    width: 350px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 10px;
-    border-end-start-radius: 10px;
-    border-bottom-right-radius: 70px;
-    box-shadow: 0 0 1em rgba(167, 167, 167, 0.507);
-}
-.col{
-    margin: 10px;
-}
-.font-style-text{
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.73;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0em;
-}
-.title-name-plant h3{
-    margin-left: 100px;
-    color: #392e0e;
-}
-.title-name-plant{
-    background: #dacb8a;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    border-end-start-radius: 50px;
-    border-bottom-right-radius: 20px;
-}
-.bgColor{
-    background: #dacb8a;
-    color: #392e0e;
-    padding: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 70px;
-    border-end-start-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.bgColor-Curiosity{
-    width: 97%;
-    background: #dacb8a;
-    color: #392e0e;
-    padding: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-end-start-radius: 70px;
-    border-bottom-right-radius: 70px;
-}
-.bgColor-Information{
-    color: #392e0e;
-    background: #6bb88a;
-    padding: 50px;
+.format-info{
     border-top-left-radius: 70px;
     border-top-right-radius: 10px;
     border-end-start-radius: 10px;
     border-bottom-right-radius: 70px;
     border-right: 5px solid #392e0e;
 }
+.bgColor-6bb88a{
+    color: #392e0e;
+    background: #6bb88a;
+}
+.margin-70-top{
+    margin-top: 70px;
+}
+.formatBox{
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.format-info{
+    border-top-left-radius: 70px;
+    border-top-right-radius: 10px;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 70px;
+    border-right: 5px solid #392e0e;
+}
+.border-radius-box{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 50px;
+    border-end-start-radius: 50px;
+}
+.border-radius{
+    border-radius: 10px;
+}
+.control-item{
+    display: flex;
+    color: white;
+}
+.position-top-50{
+    position: relative;
+    top: -50px;
+}
+.position-top-55{
+    position: relative;
+    top: -55px;
+}
+.position-left-70{
+    position: relative;
+    left: 70px;
+}
+.position-right-30{
+    position: relative;
+    right: 30px;
+}
+.padding-50{
+    padding: 50px;
+}
+.padding-40{
+    padding: 40px;
+}
+.padding-30{
+    padding: 30px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.text-align-right{
+    text-align: right; 
+}
+.color-white{
+    color: white;
+}
+.widthImg img{
+    width: 100%;
+}
 .btn-next{
+    padding: 10px;
     text-align: right;
 }
 .btn-next button{
     border: none;
-    height: 40px;
-    width: 150px;
     margin-right: 25px;
-    background: #6bb88a;
+}
+.btn-radius-format{
     border-top-left-radius: 20px;
     border-top-right-radius: 50px;
     border-end-start-radius: 50px;
     border-bottom-right-radius: 20px;
+}
+.bgColor-btn{
+    background: #6bb88a;
+}
+.width-height-btn{
+    height: 40px;
+    width: 150px;
+}
+
+
+
+.text-one{
+    width: 100%; 
+    background: #dacb8a;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.192);
+    color: rgb(43, 42, 42);
 }
