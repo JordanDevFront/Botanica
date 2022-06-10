@@ -17,6 +17,12 @@
     left: 14px;
     top: -10px;
 }
+.card img{
+    width: 100%;
+}
+.col{
+    width: 25%;
+}
 @media screen and (min-width: 320px) and (max-width: 769px) {
     .control-desktop{
         display: none;
