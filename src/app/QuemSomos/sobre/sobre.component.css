@@ -71,6 +71,22 @@
     
 }
 
+.font-size-icon i{
+    font-size: 1.4em;
+}
+.font-size-icon span{
+    font-size: 1.5em;
+}
+.font-size-icon i:hover{
+    color: aliceblue;
+}
+.item-center{
+    text-align: center;
+}
+.margin-icon i{
+    margin: 5px;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .about-me{

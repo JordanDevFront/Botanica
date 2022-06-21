@@ -1,38 +1,70 @@
-.display-flex{
-    display: flex;
-    position: relative;
-    top: 20px;
-}
-.btn-bgColor{
-    background: #6bb88a;
-    color: white;
-}
-.btn-bgColor:hover{
-    background: #dacb8a;
-    color: black;
-}
-.btn-height{
-    padding: 5px;
-    position: relative;
-    left: 14px;
-    top: -10px;
-}
-.card img{
-    width: 100%;
-}
-.col{
-    width: 25%;
-}
 @media screen and (min-width: 320px) and (max-width: 769px) {
-    .control-desktop{
-        display: none;
+    .cards .card{
+        width: 70%!important;
+        margin: 0!important;
+        margin-top: 10px!important;
+    }
+    .cards{
+        display: grid!important;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 4800px) {
-    .control-mobile{
-        display: none;
-    }
+
 }
+
+.cards{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40x;
+}
+.cards .card{
+    background: #dacb8a;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    width: 70%;
+    margin: 10px;
+}
+.cards .card .container-card{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+.cards .card .container-card:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0 0;
+    opacity: 0.5;
+}
+.card>.container-card:after{
+    background-image: linear-gradient(135deg, #dacb8a, #6bb88a);
+}
+.cards .card img{
+    width: 100%;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+.cards .card .details{
+    padding: 20px;
+}
+.cards .card .details h3{
+    color: #392e0e;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+}
+.cards .card .details p{
+    color: #392e0e;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.9em;
+    letter-spacing: 0em;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 
 
