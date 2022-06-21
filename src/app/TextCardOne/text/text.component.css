@@ -146,5 +146,8 @@
     .position-left-70{
         left: 0px;
     }
+    .teste{
+        position: relative;
+    }
 
 }
