@@ -14,6 +14,7 @@ import { DescriptionComponent } from './DescriptionDesktop/description/descripti
 import { TextTwoComponent } from './TextCardTwo/text-two/text-two.component';
 import { RodapeDesktopComponent } from './rodape-desktop/rodape-desktop.component';
 import { TextCardOneMobileComponent } from './text-card-one-mobile/text-card-one-mobile.component';
+import  {  CarouselModule  }  from  'ngx-owl-carousel-o' ; 
 
 
 @NgModule({
@@ -27,12 +28,13 @@ import { TextCardOneMobileComponent } from './text-card-one-mobile/text-card-one
     DescriptionComponent,
     TextTwoComponent,
     RodapeDesktopComponent,
-    TextCardOneMobileComponent
+    TextCardOneMobileComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    CarouselModule,
     routing
   ],
   providers: [],

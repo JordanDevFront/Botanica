@@ -1,7 +1,6 @@
 @media screen and (min-width: 320px) and (max-width: 769px) {
     .cards .card{
         width: 70%!important;
-        margin: 0!important;
         margin-top: 10px!important;
     }
     .cards{
@@ -13,16 +12,16 @@
 }
 
 .cards{
-    display: flex;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     padding: 20px;
     grid-gap: 40x;
+    overflow: hidden;
 }
 .cards .card{
     background: #dacb8a;
     border-radius: 4px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.18);
-    width: 70%;
+    width: 90%;
     margin: 10px;
 }
 .cards .card .container-card{
@@ -39,9 +38,7 @@
     border-radius: 5px 5px 0 0;
     opacity: 0.5;
 }
-.card>.container-card:after{
-    background-image: linear-gradient(135deg, #dacb8a, #6bb88a);
-}
+
 .cards .card img{
     width: 100%;
     display: block;

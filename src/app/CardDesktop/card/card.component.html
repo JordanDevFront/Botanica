@@ -1,36 +1,43 @@
 <div class="control-desktop cards container">
-  <div class="card">
-    <div class="container-card">
-      <img src="../../../assets/samambaia.jpeg" class="" alt="..." />
-    </div>
-    <div class="details">
-      <h3>Quais tipos de plantas posso cultivar em casa?</h3>
-      <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
-      <button type="button" routerLink="/textOne/" class="btn btn-success">Saiba mais</button>
-    </div>
-  </div>
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide>
+      <div class="card">
+        <div class="container-card">
+          <img src="../../../assets/samambaia.jpeg" class="" alt="..." />
+        </div>
+        <div class="details">
+          <h3>Quais tipos de plantas posso cultivar em casa?</h3>
+          <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
+          <button type="button" routerLink="/textOne/" class="btn btn-success">Saiba mais</button>
+        </div>
+      </div>
+    </ng-template>
+    
+    
+    <ng-template carouselSlide>
+      <div class="card">
+        <div class="container-card">
+          <img src="../../../assets/cuentro.jpg" class="" alt="..." />
+        </div>
+        <div class="details">
+          <h3>É possível ter um jardim ornamental dentro de casa?</h3>
+          <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
+          <button type="button" routerLink="/text-one-mobile" class="btn btn-success">Saiba mais</button>
+        </div>
+      </div>
+    </ng-template> 
 
-  <div class="card">
-    <div class="container-card">
-      <img src="../../../assets/cuentro.jpg" class="" alt="..." />
-    </div>
-    <div class="details">
-      <h3>É possível ter um jardim ornamental dentro de casa?</h3>
-      <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
-      <button type="button" routerLink="/text-one-mobile" class="btn btn-success">Saiba mais</button>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="container-card">
-      <img src="../../../assets/floresVasos.jpg" class="" alt="..." />
-    </div>
-    <div class="details">
-      <h3>Como cultivar flores em vasos e jardins</h3>
-      <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
-      <button type="button" routerLink="/text-one-mobile" class="btn btn-success">Saiba mais</button>
-    </div>
-  </div>
+    <ng-template carouselSlide>
+      <div class="card">
+        <div class="container-card">
+          <img src="../../../assets/floresVasos.jpg" class="" alt="..." />
+        </div>
+        <div class="details">
+          <h3>Como cultivar flores em vasos e jardins</h3>
+          <p>Você sabia que, as Samambaias é umas das espécies de plantas mais antigas na Terra?</p>
+          <button type="button" routerLink="/text-one-mobile" class="btn btn-success">Saiba mais</button>
+        </div>
+      </div>
+    </ng-template>  
+  </owl-carousel-o>
 </div>
-
-
